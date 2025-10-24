@@ -10,3 +10,5 @@ pink.get('api', async (c) => {
   console.log('abcd');
   return c.json({ message: 'fruit:orange' });
 });
+
+Deno.serve(pink.fetch);
